@@ -1,7 +1,7 @@
 /* global Handlebars, utils, dataSource */ // eslint-disable-line no-unused-vars
 
 {
-  'use strict';
+  "use strict";
 
   const select = {
     templateOf: {
@@ -81,7 +81,7 @@
       thisProduct.cartButton = thisProduct.element.querySelector(select.menuProduct.cartButton);
       thisProduct.priceElem = thisProduct.element.querySelector(select.menuProduct.priceElem);
       thisProduct.imageWrapper = thisProduct.element.querySelector(select.menuProduct.imageWrapper);
-      initAccordion() {
+      initAccordion(); {
         const thisProduct = this;
         thisProduct.accordionTrigger.addEventListener('click', function (event) {
             event.preventDefault();

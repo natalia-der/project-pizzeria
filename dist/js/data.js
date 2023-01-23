@@ -3,6 +3,7 @@ const dataSource = {}; // eslint-disable-line no-unused-vars
 dataSource.products = {
   cake: {
     class: 'small',
+    // eslint-disable-next-line quotes
     name: "Zio Stefano's Doughnut",
     price: 9,
     description:
@@ -11,9 +12,11 @@ dataSource.products = {
   },
   breakfast: {
     class: 'small',
+    // eslint-disable-next-line quotes
     name: "Zia Giulia's Breakfast",
     price: 9,
     description:
+      // eslint-disable-next-line quotes
       "There's no better way to start your day than indulging yourself with a cup of fresh Italian coffee and crispy waffels. Made just for you on the spot, this breakfast combo has been our guests' favorite for over 50 years.",
     images: ['<img class="active" src="images/breakfast.svg">'],
     params: {
@@ -30,6 +33,7 @@ dataSource.products = {
     },
   },
   pizza: {
+    // eslint-disable-next-line quotes
     name: "Nonna Alba's Pizza",
     price: 20,
     description:
@@ -81,6 +85,7 @@ dataSource.products = {
     },
   },
   salad: {
+    // eslint-disable-next-line quotes
     name: "Nonno Alberto's Salad",
     price: 9,
     description:
